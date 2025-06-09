@@ -1,0 +1,45 @@
+.navbar {
+    background-color: #333;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: Arial, sans-serif;
+    border-bottom: 3px solid #555;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding-bottom: 5px;
+}
+
+.navbar a:hover {
+    color: #00c8ff;
+    border-bottom: 2px solid #00c8ff;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 16px;
+    border-top: 2px solid #ccc;
+}
+
+.footer-languages {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-languages li {
+    font-weight: bold;
+    color: #333;
+}
