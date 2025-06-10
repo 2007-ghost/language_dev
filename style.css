@@ -1,4 +1,8 @@
-
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
 .navbar {
     background-color: #333;
     padding: 15px 20px;
@@ -21,6 +25,33 @@
     color: #00c8ff;
     border-bottom: 2px solid #00c8ff;
 }
+
+#php-info, #php-example {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  width: 90%;
+  max-width: 800px;
+  margin: 1rem 0;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  font-family: Arial, sans-serif;
+  position:relative;
+  left: 29%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#php-info h2, #php-example h3 {
+  color: #4F5B93;
+}
+
+pre {
+  background: #272822;
+  color: #f8f8f2;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
 
 .footer {
     margin-top: 40px;
