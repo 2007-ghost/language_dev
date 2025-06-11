@@ -75,6 +75,14 @@ pre {
   color: #494949;
 }
 
+.example-js{
+  background: #272822;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  color: #fff;
+}
+
 button {
   background-color: #3498db;
   color: white;
